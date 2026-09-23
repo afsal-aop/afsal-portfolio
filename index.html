@@ -1,0 +1,1282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afsal AOP — AI, ML &amp; Robotics Developer | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Afsal AOP — AI, Machine Learning, and Robotics Developer &amp; Entrepreneur. Explore projects in computer vision, autonomous systems, agentic AI, and IoT."
+    />
+    <meta
+      name="keywords"
+      content="Afsal AOP, AI Developer, Machine Learning, Robotics, IoT, Portfolio, Agentic AI, Computer Vision"
+    />
+    <meta name="author" content="Afsal AOP" />
+    <meta
+      property="og:title"
+      content="Afsal AOP — AI, ML & Robotics Developer"
+    />
+    <meta
+      property="og:description"
+      content="Bridging AI, Robotics, and Real-World Solutions."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#hero" class="nav-logo">
+          Afsal<span class="logo-dot"></span>AOP
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#hero">Home</a>
+          <a href="#ai-ml">AI &amp; ML</a>
+          <a href="#robotics">Robotics</a>
+          <a href="#agentic">Agentic AI</a>
+          <a href="#hackathons">Hackathons</a>
+          <a href="#ventures">Ventures</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+        </div>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+       01 — HERO / ABOUT ME
+       ============================================================ -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse"></span>
+            Open to Opportunities
+          </div>
+
+          <h1>
+            <span class="highlight">Afsal AOP</span> — Bridging AI/ML, Robotics,
+            and Real-World Solutions.
+          </h1>
+
+          <div class="hero-tags">
+            <span>BCA</span>
+            <span>AI / ML</span>
+            <span>Robotics</span>
+            <span>IoT</span>
+            <span>Agentic AI</span>
+          </div>
+
+          <p class="hero-text">
+            From embedded systems and Arduino tinkering to AI-driven autonomous
+            robots and agentic software — I build intelligent systems that
+            bridge the gap between digital innovation and physical-world impact.
+            Completed my Bachelor of Computer Applications (BCA), specializing
+            in Artificial Intelligence, Machine Learning, Robotics &amp; IoT,
+            from Yenepoya College, and co-founding ventures that turn ideas into
+            real products.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#ai-ml" class="btn btn-primary">
+              Explore Projects
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+            <a href="#experience" class="btn btn-outline">My Journey</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img
+            src="assets/afsal.jpeg"
+            alt="Afsal AOP — Professional Portrait"
+            class="hero-profile-img"
+          />
+
+          <div class="hero-stats">
+            <div class="hero-stat-chip">
+              <div class="stat-icon blue"></div>
+              <span>20+ Projects Built</span>
+            </div>
+            <div class="hero-stat-chip">
+              <div class="stat-icon brown"></div>
+              <span>5+ Hackathons</span>
+            </div>
+            <div class="hero-stat-chip">
+              <div class="stat-icon blue"></div>
+              <span>2 Ventures Co-Founded</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       02 — AI & MACHINE LEARNING
+       ============================================================ -->
+    <section class="section" id="ai-ml">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">02 — Focus Area</span>
+          <h2 class="section-title">AI &amp; Machine Learning</h2>
+          <p class="section-subtitle">
+            Computer vision, medical imaging, and intelligent systems — trained,
+            tuned, and deployed.
+          </p>
+        </div>
+
+        <div class="projects-grid stagger-children">
+          <!-- Card 1 -->
+          <article
+            class="project-card"
+            data-project="hand-sign"
+            id="card-hand-sign"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/hand_sign_detection.jpg"
+                alt="Real-Time Hand Sign Detection"
+                loading="lazy"
+              />
+              <span class="card-category">Computer Vision</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Real-Time Hand Sign Detection</h3>
+              <p class="card-desc">
+                ASL gesture recognition using MediaPipe landmarks and deep
+                learning with sub-100ms inference.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>OpenCV</span><span>MediaPipe</span
+                ><span>TensorFlow</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article
+            class="project-card"
+            data-project="cow-breed"
+            id="card-cow-breed"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/cow_breed.png"
+                alt="Cow Breed Classification"
+                loading="lazy"
+              />
+              <span class="card-category">Image Classification</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cow Breed Classification</h3>
+              <p class="card-desc">
+                An AI model designed specifically for predicting cow breeds from
+                images
+              </p>
+              <div class="card-tags">
+                <span>PyTorch</span><span>OpenCV</span><span>Gradio</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article
+            class="project-card"
+            data-project="pneumonia"
+            id="card-pneumonia"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/medical_imaging.jpg"
+                alt="Pneumonia Detection"
+                loading="lazy"
+              />
+              <span class="card-category">Medical AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Pneumonia Detection</h3>
+              <p class="card-desc">
+                A deep learning system that classifies chest X-rays for
+                pneumonia using clinically-grounded spatial attention.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>Torchvision</span><span>PIL</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="project-card" data-project="dental" id="card-dental">
+            <div class="card-image-wrapper">
+              <img
+                src="assets/dental.png"
+                alt="Dental Cavity Detection"
+                loading="lazy"
+              />
+              <span class="card-category">Medical AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Dental Cavity Detection</h3>
+              <p class="card-desc">
+                YOLOv8-powered dental radiograph analysis for rapid cavity
+                screening.
+              </p>
+              <div class="card-tags">
+                <span>YOLOv8</span><span>OpenCV</span><span>FastAPI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="project-card" data-project="fraud" id="card-fraud">
+            <div class="card-image-wrapper">
+              <img
+                src="assets/fraud_detection.png"
+                alt="Credit Card Fraud Detection"
+                loading="lazy"
+              />
+              <span class="card-category">Anomaly Detection</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Credit Card Fraud Detection</h3>
+              <p class="card-desc">
+                A deep learning system that classifies credit card transactions
+                as fraudulent or legitimate.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>Scikit-learn</span
+                ><span>TensorFlow</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article
+            class="project-card"
+            data-project="eye-tracking"
+            id="card-eye-tracking"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/eye_mouse.png"
+                alt="Eye-Tracking Virtual Mouse"
+                loading="lazy"
+              />
+              <span class="card-category">Assistive Tech</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Eye-Tracking Virtual Mouse</h3>
+              <p class="card-desc">
+                A Python-based accessibility tool that allows users to control
+                their computer mouse hands-free using eye movements.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>OpenCV</span><span>PyAutoGUI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7 -->
+          <article
+            class="project-card"
+            data-project="digital-twin-mice"
+            id="card-digital-twin-mice"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/lab_mice.png"
+                alt="AI Digital Twin for Laboratory Mice"
+                loading="lazy"
+              />
+              <span class="card-category">Simulation</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Digital Twin for Laboratory Mice</h3>
+              <p class="card-desc">
+                A virtual lab mouse simulation using a Random Forest classifier
+                to predict pharmacological outcomes.
+              </p>
+              <div class="card-tags">
+                <span>Three.js</span><span>Random Forest</span
+                ><span>Blender</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       03 — ROBOTICS, IoT & AUTONOMOUS SYSTEMS
+       ============================================================ -->
+    <section class="section" id="robotics">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">03 — Hardware Meets Software</span>
+          <h2 class="section-title">Robotics, IoT &amp; Autonomous Systems</h2>
+          <p class="section-subtitle">
+            From Arduino prototypes to NVIDIA Isaac Sim — the full
+            hardware-to-simulation pipeline.
+          </p>
+        </div>
+
+        <div class="projects-grid stagger-children">
+          <article
+            class="project-card"
+            data-project="robo-car"
+            id="card-robo-car"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/robotics_cover.jpg"
+                alt="Wi-Fi & Bluetooth Controlled Robotic Car"
+                loading="lazy"
+              />
+              <span class="card-category">IoT Robotics</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Bluetooth-Controlled Robotic Car</h3>
+              <p class="card-desc">
+                A Bluetooth-controlled robotic car prototype designed to
+                demonstrate embedded hardware integration and wireless
+                teleoperation.
+              </p>
+              <div class="card-tags">
+                <span>Arduino UNO</span><span>L298N</span><span>HC-05</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="vacuum" id="card-vacuum">
+            <div class="card-image-wrapper">
+              <img
+                src="assets/vacum_cleaner.png"
+                alt="Autonomous Robotic Vacuum Cleaner"
+                loading="lazy"
+              />
+              <span class="card-category">Autonomous</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Autonomous Vacuum Cleaner</h3>
+              <p class="card-desc">
+                An autonomous, Arduino-powered robotic vacuum cleaner
+              </p>
+              <div class="card-tags">
+                <span>Arduino UNO</span><span>Adafruit</span
+                ><span>NewPing</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="digital-twin-robot"
+            id="card-digital-twin-robot"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/digital_twin.PNG"
+                alt="Digital Twin of Mobile Robot"
+                loading="lazy"
+              />
+              <span class="card-category">Simulation</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Digital Twin of Mobile Robot</h3>
+              <p class="card-desc">
+                A digital twin system that synchronizes a physical two-wheeled
+                mobile robot with a 3D virtual simulation in real time.
+              </p>
+              <div class="card-tags">
+                <span>Isaac Sim</span><span>ROS 2</span
+                ><span>Raspberry Pi 4</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="autonomous-driving"
+            id="card-autonomous-driving"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/autonomous_driving.jpg"
+                alt="Simulation-Based Autonomous Driving"
+                loading="lazy"
+              />
+              <span class="card-category">Autonomous Driving</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Self-Driving Car in Isaac Sim</h3>
+              <p class="card-desc">
+                An autonomous self-driving car simulated in NVIDIA Isaac Sim
+                using machine learning for lane tracking and computer vision for
+                sign recognition.
+              </p>
+              <div class="card-tags">
+                <span>NVIDIA Isaac Sim</span><span>ROS 2</span
+                ><span>OpenCV</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="richi-mini"
+            id="card-richi-mini"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/richi_mini.jpeg"
+                alt="Richi Mini Robot"
+                loading="lazy"
+              />
+              <span class="card-category">Companion Robot</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Richi Mini Robot</h3>
+              <p class="card-desc">
+                Conversational robot with speech-to-text, LLM integration, and
+                servo expressions.
+              </p>
+              <div class="card-tags">
+                <span>Raspberry Pi</span><span>Whisper</span><span>LLaMA</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="turtlebot"
+            id="card-turtlebot"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/turtle_bot.png"
+                alt="TurtleBot Navigation"
+                loading="lazy"
+              />
+              <span class="card-category">Navigation</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">TurtleBot Navigation</h3>
+              <p class="card-desc">
+                A workflow for implementing SLAM mapping and autonomous
+                navigation using the TurtleBot 4 on ROS 2 Humble.
+              </p>
+              <div class="card-tags">
+                <span>TurtleBot4</span><span>RViz</span><span>SLAM</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       04 — AGENTIC AI & SOFTWARE
+       ============================================================ -->
+    <section class="section" id="agentic">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">04 — Intelligent Software</span>
+          <h2 class="section-title">Agentic AI &amp; Software</h2>
+          <p class="section-subtitle">
+            Autonomous agents, full-stack platforms, and AI-powered
+            applications.
+          </p>
+        </div>
+
+        <div class="projects-grid stagger-children">
+          <article
+            class="project-card"
+            data-project="code-refactor"
+            id="card-code-refactor"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/self_heal.png"
+                alt="Agentic AI Codebase Refactoring Assistant"
+                loading="lazy"
+              />
+              <span class="card-category">Agentic AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Self-Healing API Proxy</h3>
+              <p class="card-desc">
+                A zero-infrastructure multi-agent proxy system that intercepts
+                API schema drift and heals payloads dynamically.
+              </p>
+              <div class="card-tags">
+                <span>FastAPI</span><span>Pydantic</span><span>LibCST</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="shopping-agent"
+            id="card-shopping-agent"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/shoping_assistant.png"
+                alt="AI Shopping Agent"
+                loading="lazy"
+              />
+              <span class="card-category">Agentic AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">AI shopping assistant chatbot</h3>
+              <p class="card-desc">
+                An AI shopping assistant chatbot that helps users discover and
+                purchase products using text or images.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>SQLite</span><span>LangChain</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="telecom-chatbot"
+            id="card-telecom-chatbot"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/agentic_ai_cover.jpg"
+                alt="Telecom Customer Service Chatbot"
+                loading="lazy"
+              />
+              <span class="card-category">Conversational AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">AI-Powered Telecom Chatbot</h3>
+              <p class="card-desc">
+                A telecom customer support chatbot that uses RAG
+                (Retrieval-Augmented Generation) to answer queries about mobile
+                services, connectivity, and billing.
+              </p>
+              <div class="card-tags">
+                <span>LangChain</span><span>SQLite</span
+                ><span>HuggingFace</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="elearning"
+            id="card-elearning"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/eduai.png"
+                alt="AI E-Learning Platform"
+                loading="lazy"
+              />
+              <span class="card-category">EdTech</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">AI-Powered E-Learning Platform</h3>
+              <p class="card-desc">
+                An AI-integrated e-learning platform that combines academic
+                modules, games, and quizzes with machine learning analytics.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>Jupyter Notebook</span
+                ><span>JSON</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="asset-mgmt"
+            id="card-asset-mgmt"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/appsheet.png"
+                alt="Asset Management System"
+                loading="lazy"
+              />
+              <span class="card-category">Enterprise</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                Asset &amp; Inventory Management application
+              </h3>
+              <p class="card-desc">
+                A mobile-friendly University Asset & Inventory Management
+                application designed to streamline equipment tracking.
+              </p>
+              <div class="card-tags">
+                <span>AppSheet</span><span>Google Sheets</span
+                ><span>Access Control</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="manworx-platform"
+            id="card-manworx-platform"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/manworx.png"
+                alt="Manworx E-Commerce Platform"
+                loading="lazy"
+              />
+              <span class="card-category">E-Commerce</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Manworx E-Commerce Platform</h3>
+              <p class="card-desc">
+                A responsive e-commerce website for a men's fashion brand named
+                ManWorx.
+              </p>
+              <div class="card-tags">
+                <span>JavaScript</span><span>FontAwesome</span><span>CSS3</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       05 — HACKATHONS & INNOVATION
+       ============================================================ -->
+    <section class="section" id="hackathons">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">05 — Compete & Innovate</span>
+          <h2 class="section-title">Hackathons &amp; Innovation</h2>
+          <p class="section-subtitle">
+            Rapid prototyping under pressure — ideas to working demos in 24–48
+            hours.
+          </p>
+        </div>
+
+        <div class="projects-grid stagger-children">
+          <article
+            class="project-card"
+            data-project="maritime-disaster"
+            id="card-maritime-disaster"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/iot_maritime.jpg"
+                alt="Smart Maritime Disaster Warning System"
+                loading="lazy"
+              />
+              <span class="card-category">AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Smart Maritime Disaster Warning System</h3>
+              <p class="card-desc">
+                A machine learning web application designed to predict and
+                assess maritime operational risks.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>Machine Learning</span
+                ><span>Twilio</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="women-entrepreneurship"
+            id="card-women-entrepreneurship"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/woman_web.png"
+                alt="Women Entrepreneurship Platform"
+                loading="lazy"
+              />
+              <span class="card-category">Social Impact</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">AI-Powered Artisan Marketplace</h3>
+              <p class="card-desc">
+                A digital e-commerce and support platform designed to empower
+                local artisans and showcase handmade products.
+              </p>
+              <div class="card-tags">
+                <span>React</span><span>Python</span><span>Supabase</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="hack-cow-breed"
+            id="card-hack-cow-breed"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/cow_breed.png"
+                alt="Cow Breed Classification Hackathon"
+                loading="lazy"
+              />
+              <span class="card-category">Mobile AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cow Breed Classification</h3>
+              <p class="card-desc">
+                An AI model designed specifically for predicting cow breeds from
+                images.
+              </p>
+              <div class="card-tags">
+                <span>TensorFlow</span><span>OpenCV</span><span>Gradio</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="hack-pneumonia"
+            id="card-hack-pneumonia"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/medical_imaging.jpg"
+                alt="Pneumonia Detection Hackathon"
+                loading="lazy"
+              />
+              <span class="card-category">Healthcare</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Pneumonia Detection</h3>
+              <p class="card-desc">
+                A deep learning system that classifies chest X-rays for
+                pneumonia using clinically-grounded spatial attention.
+              </p>
+              <div class="card-tags">
+                <span>Python</span><span>Torchvision</span><span>PIL</span>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            data-project="hack-code-refactor"
+            id="card-hack-code-refactor"
+          >
+            <div class="card-image-wrapper">
+              <img
+                src="assets/self_heal.png"
+                alt="Agentic AI Refactoring Hackathon"
+                loading="lazy"
+              />
+              <span class="card-category">Agentic AI</span>
+              <div class="card-overlay">
+                <span class="card-overlay-btn">View Details</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Self-Healing API Proxy</h3>
+              <p class="card-desc">
+                A zero-infrastructure multi-agent proxy system that intercepts
+                API schema drift and heals payloads dynamically.
+              </p>
+              <div class="card-tags">
+                <span>FastAPI</span><span>Pydantic</span><span>LibCST</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       06 — ENTREPRENEURSHIP & LEADERSHIP
+       ============================================================ -->
+    <section class="section" id="ventures">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">06 — Builder & Leader</span>
+          <h2 class="section-title">Entrepreneurship &amp; Leadership</h2>
+          <p class="section-subtitle">
+            Co-founding ventures, shipping products, and leading teams from zero
+            to one.
+          </p>
+        </div>
+
+        <div class="venture-cards stagger-children">
+          <div class="venture-card">
+            <span class="venture-role">Co-Founder</span>
+            <h3 class="venture-name">Manworx</h3>
+            <p class="venture-desc">
+              ManWorx is a premier e-commerce and reselling venture offering a
+              meticulously curated selection of high-quality clothing and
+              cutting-edge gadgets. The company's core mission is to provide
+              unparalleled quality and exceptional service to its clientele.
+              Serving as a dedicated destination for stylish apparel and modern
+              electronics, ManWorx is consistently committed to ongoing growth,
+              customer satisfaction, and continuous innovation.
+            </p>
+          </div>
+
+          <div class="venture-card">
+            <span class="venture-role">Co-Founder</span>
+            <h3 class="venture-name">Exceled</h3>
+            <p class="venture-desc">
+              ExcelEd is an educational consultancy focused on guiding students
+              toward confident and informed academic and career decisions. The
+              organization provides comprehensive career guidance, college
+              selection support, scholarship assistance, education loans, and
+              free campus visits. Dedicated to simplifying the educational
+              journey through transparent and personalized counseling, ExcelEd
+              operates on a collaborative foundation driven by a shared vision
+              to help students successfully navigate the right path for their
+              future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       07 — PROFESSIONAL EXPERIENCE
+       ============================================================ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">07 — Career</span>
+          <h2 class="section-title">Professional Experience</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <h3 class="timeline-role">Robotics Intern</h3>
+            <p class="timeline-company">TCE — 2 Months</p>
+            <ul class="timeline-bullets">
+              <li>
+                Built a real-time digital twin syncing physical robot hardware
+                with Isaac Sim via ROS 2.
+              </li>
+              <li>
+                Developed an autonomous vehicle in Isaac Sim using ROS 2 and
+                PyTorch ML line detection.
+              </li>
+              <li>
+                Implemented 2D SLAM mapping and autonomous navigation workflows
+                for TurtleBot 4 using Nav2.
+              </li>
+              <li>
+                Integrated LLMs and speech models into the pre-built Richi Mini
+                robot to enable natural dialogue and expressions.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <h3 class="timeline-role">AppSheet Developer Intern</h3>
+            <p class="timeline-company">TCE — Present-Hybrid</p>
+            <ul class="timeline-bullets">
+              <li>
+                Built a mobile-friendly University Asset & Inventory app using
+                Google AppSheet for real-time tracking.
+              </li>
+              <li>
+                Structured relational data and enforced strict validation rules
+                to eliminate duplicate asset allocations.
+              </li>
+              <li>
+                Automated core workflows to significantly reduce manual data
+                entry efforts and administrative errors.
+              </li>
+              <li>
+                Managed the accurate tracking of 100+ university assets across
+                departments during the testing phase.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       08 — WORKSHOPS & TRAINING
+       ============================================================ -->
+    <section class="section" id="workshops">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">08 — Continuous Learning</span>
+          <h2 class="section-title">Workshops &amp; Training</h2>
+        </div>
+
+        <div class="training-list stagger-children">
+          <div class="training-item">
+            <div class="training-icon">🧠</div>
+            <div>
+              <h4 class="training-title">
+                30-Hour Microsoft AI &amp; ML Training
+              </h4>
+              <p class="training-desc">
+                Intensive hands-on training covering Python, Azure ML Studio,
+                and machine learning pipelines.
+              </p>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <div class="training-icon">📊</div>
+            <div>
+              <h4 class="training-title">
+                30-HourMicrosoft Data Science &amp; Analytics
+              </h4>
+              <p class="training-desc">
+                Data wrangling, statistical analysis, and visualization with
+                Power BI and Azure tools.
+              </p>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <div class="training-icon">🎓</div>
+            <div>
+              <h4 class="training-title">IoT Workshop Peer Mentor</h4>
+              <p class="training-desc">
+                Progressed from learner to Peer Mentor, guiding students through
+                hands-on IoT workshops.
+              </p>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <div class="training-icon">📡</div>
+            <div>
+              <h4 class="training-title">3-Day IoT Workshop</h4>
+              <p class="training-desc">
+                Sensors, microcontrollers, MQTT protocols, and cloud
+                connectivity fundamentals.
+              </p>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <div class="training-icon">🤖</div>
+            <div>
+              <h4 class="training-title">Robotics Workshop</h4>
+              <p class="training-desc">
+                Mobile app-controlled robots using NodeMCU, motor drivers, and
+                Blynk IoT platform.
+              </p>
+            </div>
+          </div>
+
+          <div class="training-item">
+            <div class="training-icon">🔗</div>
+            <div>
+              <h4 class="training-title">Git &amp; Version Control Workshop</h4>
+              <p class="training-desc">
+                Branching strategies, pull requests, merge conflict resolution,
+                and CI/CD basics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       09 — CERTIFICATIONS
+       ============================================================ -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">09 — Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="cert-grid stagger-children">
+          <div class="cert-card">
+            <div class="cert-badge">☁️</div>
+            <div class="cert-info">
+              <h4 class="cert-name">Azure Fundamentals (AZ-900)</h4>
+              <p class="cert-issuer">Microsoft Certified</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-badge">⚡</div>
+            <div class="cert-info">
+              <h4 class="cert-name">Power Platform Fundamentals (PL-900)</h4>
+              <p class="cert-issuer">Microsoft Certified</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-badge">⛃</div>
+            <div class="cert-info">
+              <h4 class="cert-name">Azure Data Fundamentals <br />(DP-900)</h4>
+              <p class="cert-issuer">Microsoft Certified</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-badge">🛡️</div>
+            <div class="cert-info">
+              <h4 class="cert-name">
+                Security, Compliance &amp; Identity (SC-900)
+              </h4>
+              <p class="cert-issuer">Microsoft Certified</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       10 — EDUCATION
+       ============================================================ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">10 — Academic Foundation</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="reveal">
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <h3 class="edu-degree">
+                Bachelor of Computer Applications (BCA)
+              </h3>
+              <p class="edu-specialization">
+                Specialization: Artificial Intelligence, Machine Learning,
+                Robotics &amp; IoT (with Microsoft)
+              </p>
+              <p class="edu-college">Yenepoya College — Graduate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="nav-logo">
+              Afsal<span class="logo-dot"></span>AOP
+            </a>
+            <p>
+              AI, ML &amp; Robotics Developer. Building intelligent systems that
+              bridge the digital and physical worlds.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Navigation</h4>
+            <a href="#ai-ml">AI &amp; ML</a>
+            <a href="#robotics">Robotics</a>
+            <a href="#agentic">Agentic AI</a>
+            <a href="#hackathons">Hackathons</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>More</h4>
+            <a href="#ventures">Entrepreneurship</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>Connect</h4>
+            <a href="https://www.github.com/afsal-aop">GitHub</a>
+            <a href="https://www.linkedin.com/in/afsal-aop">LinkedIn</a>
+            <a href="https://www.afsalaop544@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Afsal AOP. Designed &amp; Built with purpose.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+       MODAL OVERLAY (Single reusable modal)
+       ============================================================ -->
+    <div class="modal-backdrop" id="projectModal">
+      <div class="modal">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">
+          &times;
+        </button>
+
+        <img class="modal-hero-img" id="modalImage" src="" alt="" />
+
+        <div class="modal-content">
+          <span class="modal-category" id="modalCategory"></span>
+          <h2 class="modal-title" id="modalTitle"></h2>
+
+          <h3 class="modal-section-title">About This Project</h3>
+          <p class="modal-text" id="modalAbout"></p>
+
+          <h3 class="modal-section-title">Tech Stack</h3>
+          <div class="modal-tech-stack" id="modalTechStack"></div>
+
+          <div class="modal-actions">
+            <a
+              href="#"
+              class="btn btn-primary btn-sm"
+              id="modalGithub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              View on GitHub
+            </a>
+            <a
+              style="display: none"
+              href="#"
+              class="btn btn-outline btn-sm"
+              id="modalDemo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
