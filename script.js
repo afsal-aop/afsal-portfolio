@@ -53,7 +53,7 @@
     'dental': {
       title: 'Dental Cavity Detection',
       category: 'AI & Machine Learning',
-      image: 'assets/dental.png',
+      image: 'assets/dental.webp',
       about: 'Built an end-to-end AI system for detecting dental issues from radiographic images using YOLOv8. | Trained an object detection model to identify problem regions with bounding box predictions. | Developed a FastAPI backend to process images and return real-time diagnostic results. | Designed a Next.js 14 dashboard for uploading X-rays and visualizing predictions. | Integrated Supabase for managing patient data, authentication, and diagnostic history. | Enabled real-time detection using OpenCV for live image inputs.',
       techStack: ['Python', 'YOLOv8', 'OpenCV', 'Roboflow', 'FastAPI', 'PIL'],
       github: '#',
@@ -62,7 +62,7 @@
     'fraud': {
       title: 'Credit Card Fraud Detection',
       category: 'AI & Machine Learning',
-      image: 'assets/fraud_detection.png',
+      image: 'assets/fraud_detection.webp',
       about: 'A deep learning system that classifies credit card transactions as fraudulent or legitimate. | It analyzes transaction metrics through a neural network to calculate a real-time fraud probability score. | Automated data scaling, interactive dashboard, and instant probability scoring. | A Sequential neural network model integrated with a web-based interactive frontend. | A financial security tool used to instantly identify and flag fraudulent credit card charges.',
       techStack: ['Python', 'Scikit-learn', 'TensorFlow/Keras', 'Streamlit'],
       github: '#',
@@ -71,7 +71,7 @@
     'eye-tracking': {
       title: 'Eye-Tracking Virtual Mouse',
       category: 'AI & Machine Learning',
-      image: 'assets/eye_mouse.png',
+      image: 'assets/eye_mouse.webp',
       about: 'A Python-based accessibility tool that allows users to control their computer mouse hands-free using eye movements. | The script uses a webcam to monitor facial landmarks, mapping the user`s iris position to screen coordinates to move the cursor, while monitoring eye aspect ratios to detect double-blinks for clicking. | Real-time iris tracking for smooth cursor movement, double-blink detection for left-clicking, and a lightweight graphical interface to start or stop the camera feed. | A multithreaded desktop application where a Tkinter frontend manages a background computer vision loop that processes live webcam frames without freezing the UI. | An assistive technology solution designed to enable hands-free computer navigation for users with physical mobility limitations.',
       techStack: ['Python', 'OpenCV', 'Machine Learning', 'PyAutoGUI', 'Tkinter'],
       github: '#',
@@ -80,7 +80,7 @@
     'digital-twin-mice': {
       title: 'Digital Twin for Laboratory Mice',
       category: 'AI & Machine Learning',
-      image: 'assets/lab_mice.png',
+      image: 'assets/lab_mice.webp',
       about: 'A virtual lab mouse simulation using a Random Forest classifier to predict pharmacological outcomes. | The ML model analyzes the drug type and dosage parameters to classify the expected toxicity level (Healthy, Toxic, or Lethal). | Interactive 3D lab mice, real-time ML toxicity predictions, and dynamic Pharmacokinetics charts. | The UI sends injection parameters to the Python backend, where the trained Random Forest model predicts the health state and triggers the corresponding 3D animation. | A cruelty-free, predictive AI environment for testing drug toxicity without physical animal subjects.',
       techStack: ['Three.js', 'Python', 'Scikit-Learn', 'Random Forest', 'Blender'],
       github: '#',
@@ -100,7 +100,7 @@
     'vacuum': {
       title: 'Autonomous Vacuum Cleaner',
       category: 'Robotics & IoT',
-      image: 'assets/vacum_cleaner.png',
+      image: 'assets/vacum_cleaner.webp',
       about: 'An autonomous, Arduino-powered robotic vacuum cleaner | The robot drives forward until its ultrasonic sensor detects an obstacle within 15cm; it then stops, reverses, scans left and right using a servo motor, and turns toward the clearest path to continue cleaning. | Automated obstacle avoidance, multi-directional distance scanning, and smooth motor acceleration for maneuvering. | A reactive control loop running on an Arduino microcontroller, where real-time sensor inputs dictate the directional outputs of an Adafruit Motor Shield driving the wheels and vacuum fan. | A DIY hardware project designed to autonomously roam and clean open floor spaces without human intervention.',
       techStack: ['Arduino UNO', 'AFMotor', 'C++', 'DC Motors', 'NewPing', 'Ultra sonic','Servo Motor', 'Adafruit Motor Shield'],
       github: '#',
@@ -136,7 +136,7 @@
     'turtlebot': {
       title: 'TurtleBot Navigation',
       category: 'Robotics & IoT',
-      image: 'assets/turtle_bot.png',
+      image: 'assets/turtle_bot.webp',
       about: 'A workflow for implementing SLAM mapping and autonomous navigation using the TurtleBot 4 on ROS 2 Humble. | The robot scans its surroundings via LiDAR to build a 2D floor plan, saves it, and then uses that map to drive to specific coordinates. | Synchronous or asynchronous SLAM mapping, RViz real-time visualization, map file saving, and interactive goal-setting. | SLAM creates .yaml and .pgm map files, the localization module finds the robot`s starting pose, and Nav2 plans the route to the target destination. | ',
       techStack: ['TurtleBot4', 'ROS 2 Humble', 'Nav2', 'SLAM Toolbox', 'RViz'],
       github: '#',
@@ -147,7 +147,7 @@
     'code-refactor': {
       title: 'Agentic AI Codebase Refactoring Assistant',
       category: 'Agentic AI & Software',
-      image: 'assets/self_heal.png',
+      image: 'assets/self_heal.webp',
       about: 'A zero-infrastructure multi-agent proxy system that intercepts API schema drift and heals payloads dynamically. | The system catches API errors, uses an LLM to infer payload fixes, caches the solution in PostgreSQL, and routes traffic via an async event bus. | Zero-trust security validation, lossless AST code patching, agentic SLA negotiation, and chaos engineering stress testing. | An event-driven central orchestrator coordinates plug-and-play autonomous sub-agents (Security, AST Patching, Stress Test) to validate, heal, and permanently patch code. | To ensure 100% API uptime by autonomously fixing broken schemas on the fly and generating GitHub Pull Requests for permanent source code fixes.',
       techStack: ['Python', 'FastAPI', 'Pydantic', 'LibCST', 'PostgreSQL', 'Groq'],
       github: '#',
@@ -156,7 +156,7 @@
     'shopping-agent': {
       title: 'AI shopping assistant chatbot',
       category: 'Agentic AI',
-      image: 'assets/shoping_assistant.png',
+      image: 'assets/shoping_assistant.webp',
       about: 'An AI shopping assistant chatbot that helps users discover and purchase products using text or images. | The AI processes user inputs or photos, searches the store database, fetches reviews, and processes user-confirmed orders. | Image-based product search, dynamic price and rating filtering, and an automated checkout tool. | An interactive e-commerce tool for customers to easily shop conversationally without navigating traditional website menus.',
       techStack: ['Python', 'SQLite', 'LangChain', 'Groq', 'Qwen', 'Streamlit'],
       github: '#',
@@ -174,7 +174,7 @@
     'elearning': {
       title: 'AI-Powered E-Learning Platform',
       category: 'Agentic AI & Software',
-      image: 'assets/eduai.png',
+      image: 'assets/eduai.webp',
       about: 'An AI-integrated e-learning platform that combines academic modules, games, and quizzes with machine learning analytics. | Students complete gamified quizzes, while a background ML model evaluates their data to predict future academic performance. | Gamified learning (avatars/badges), subject-specific quizzes, progress dashboards, and predictive student grade modeling. | A client-server web app where a Python backend serves interactive frontend pages and queries a pre-trained ML model for analytics. | To provide a digital learning environment that teaches core subjects while using data science to forecast student outcomes.',
       techStack: ['Python', 'Jupyter Notebook', 'JSON', 'HTML', 'CSS', 'JavaScript'],
       github: '#',
@@ -183,7 +183,7 @@
     'asset-mgmt': {
       title: 'Asset & Inventory Management System',
       category: 'Agentic AI & Software',
-      image: 'assets/appsheet.png',
+      image: 'assets/appsheet.webp',
       about: 'Built a University Asset & Inventory Management application using Google AppSheet. | Structured relational data across departments, assets, and transaction logs. | Automated workflows, reducing manual data entry efforts significantly. | Enforced validation rules to eliminate duplicate asset allocation. | Designed mobile-friendly interfaces for real-time asset tracking. | Managed tracking for 100+ assets during testing, improving accuracy and reducing manual errors.',
       techStack: ['Google AppSheet', 'Google Sheets', 'AppSheet Expressions', 'Workflow Automation', 'Data Management', 'Bootstrap'],
       github: '#',
@@ -192,7 +192,7 @@
     'manworx-platform': {
       title: 'Manworx E-Commerce Platform',
       category: 'Software',
-      image: 'assets/manworx.png',
+      image: 'assets/manworx.webp',
       about: 'An e-commerce website for a men"s fashion brand named ManWorx. | Users navigate through interconnected static web pages to browse clothing, read fashion blogs, and manage items in a shopping cart UI. | Product catalog, shopping cart layout, blog section, contact form with an embedded Google Map, and a mobile-friendly hamburger menu. | A multi-page static web structure utilizing CSS Flexbox and media queries to dynamically adjust the layout for desktop, tablet, and mobile screens.',
       techStack: ['JavaScript', 'FontAwesome', 'CSS3','HTML5'],
       github: '#',
@@ -212,7 +212,7 @@
     'women-entrepreneurship': {
       title: 'AI-Powered Artisan Marketplace',
       category: 'Hackathon',
-      image: 'assets/woman_web.png',
+      image: 'assets/woman_web.webp',
       about: 'A digital e-commerce and support platform designed to empower local artisans and showcase handmade products. | The platform connects artisans with buyers through a map-based marketplace, using AI tools and chatbots to help sellers manage listings, translate languages, and track their business impact. | interactive impact dashboard, custom location mapping, multi-language translation, AI assistant pipeline, and integrated communication bots (Telegram/WhatsApp). | A decoupled system where a React web frontend interacts with a Python AI backend and a Supabase database, while a standalone Node.js microservice handles Telegram bot communications.| To digitize traditional artisan businesses, providing them with AI-driven seller tools, multilingual support, and a direct-to-consumer marketplace.',
       techStack: ['Python', 'React', 'AI', 'Node.js', 'Supabase'],
       github: '#',
@@ -221,7 +221,7 @@
     'hack-cow-breed': {
       title: 'Cow Breed Classification',
       category: 'Hackathon',
-      image: 'assets/cow_breed.png',
+      image: 'assets/cow_breed.webp',
       about: 'An AI model designed specifically for predicting cow breeds from images. | A MobileNetV2 neural network analyzes uploaded photos or camera feeds to output the specific cow breed and its confidence score. | Automated dataset splitting, fine-tuned transfer learning, TFLite conversion for mobile deployment, and dual web interfaces. | A deep learning backend connected to interactive web frontends, allowing users to upload or snap photos for instant prediction. | A smart agricultural tool for farmers and researchers to quickly identify and predict cow breeds on the fly.',
       techStack: ['Python', 'TensorFlow', 'OpenCV', 'Streamlit', 'Gradio'],
       github: '#',
@@ -239,7 +239,7 @@
     'hack-code-refactor': {
       title: 'Self-Healing API Proxy',
       category: 'Hackathon',
-      image: 'assets/self_heal.png',
+      image: 'assets/self_heal.webp',
       about: 'A zero-infrastructure multi-agent proxy system that intercepts API schema drift and heals payloads dynamically. | The system catches API errors, uses an LLM to infer payload fixes, caches the solution in PostgreSQL, and routes traffic via an async event bus. | Zero-trust security validation, lossless AST code patching, agentic SLA negotiation, and chaos engineering stress testing. | An event-driven central orchestrator coordinates plug-and-play autonomous sub-agents (Security, AST Patching, Stress Test) to validate, heal, and permanently patch code. | To ensure 100% API uptime by autonomously fixing broken schemas on the fly and generating GitHub Pull Requests for permanent source code fixes.',
       techStack: ['Python', 'FastAPI', 'Pydantic', 'LibCST', 'PostgreSQL', 'Groq'],
       github: '#',
